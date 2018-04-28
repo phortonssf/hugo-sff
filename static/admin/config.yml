@@ -9,7 +9,7 @@ publish_mode: editorial_workflow
 media_folder: "data/images/gallery"
 
 
-# collections: # A list of collections the CMS should be able to edit
+collections: # A list of collections the CMS should be able to edit
    - name: "lesson"
      label: "Lesson"
      folder: "site/content/lesson"
