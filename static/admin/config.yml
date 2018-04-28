@@ -10,7 +10,7 @@ media_folder: "data/images/gallery"
 
 
 # collections: # A list of collections the CMS should be able to edit
-   - name: lesson
+   - name: "lesson"
      label: "Lesson"
      folder: "site/content/lesson"
      create: true
