@@ -65,3 +65,4 @@ sftp-config.json
 .codekit-cache
 .idea/
 config.codekit3
+.keep
