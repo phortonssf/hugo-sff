@@ -22,7 +22,19 @@
     {{end}}
 
     <script src="{{"js/jquery-2.x.min.js"| relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"></script>
-    
+
+	  <script>
+	  if (window.netlifyIdentity) {
+		  window.netlifyIdentity.on("init", user => {
+			  if (!user) {
+				  window.netlifyIdentity.on("login", () => {
+					  document.location.href = "/admin/";
+				  });
+			  }
+		  });
+	  }
+	  </script>
+
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
           display:none !important;

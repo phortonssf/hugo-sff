@@ -10,13 +10,14 @@ media_folder: "data/images/gallery"
 
 
 # collections: # A list of collections the CMS should be able to edit
-#   - name: food
-#     label: "Food Item"
-#     folder: "site/content/food"
-#     create: true
-#     fields:
-#       - {label: "Name of Item" , name: "Title" , widget: "string"}
-#       - {label: "Supported Meals", name: "Categories", widget: "list", default: ["Lunch", "Dinner"]}
-#       - {label: "Ingredients" , name: "Description" , widget: "text"}
-#       - {label: "Type of Food" , name: "Type" , widget: "string", default: "raw bar"}
-#       - {label: "Price", name: "price", widget: "string"}
+   - name: lesson
+     label: "Lesson"
+     folder: "site/content/lesson"
+     create: true
+     fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "lesson"}
+      - {label: "Group" , name: "group" , widget: "string"}
+      - {label: "Name" , name: "name" , widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
