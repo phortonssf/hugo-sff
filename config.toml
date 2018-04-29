@@ -21,7 +21,10 @@ defaultContentLanguageInSubdir= true
     name = "<i class='fa fa-camera'></i> Learn More"
     url = "/about"
     weight = 11
-
+[[menu.shortcuts]]
+    name = "Contact Us"
+    url = "contact"
+    weight = 12
 [params]
     # Author of the site, will be used in meta information
     author = "Soft Stack Factory"
