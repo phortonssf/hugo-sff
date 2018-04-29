@@ -5,23 +5,30 @@ backend:
     - editor
   branch: master # Branch to update (optional; defaults to master)
 
+slug:
+  encoding: "ascii"
+  clean_accents: true
+
 publish_mode: editorial_workflow
 media_folder: "/site/static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "home"
-    label: "Home"
+  - label: "Home"
+    name: "home"
+    extension: "md"
     files:
-      - file: "site/content/_index.md"
-        label: "Home Page"
+      - label: "Home Page"
         name: "home"
+        file: "site/content/_index.md"
         fields:
           - {label: Title, name: title, widget: string}
+          - {label: Weight, name: weight, widget: number, required: false}
           - {label: Publish Date, name: date, widget: datetime}
-          - {label: Body, name: body, widget: markdown}
-  - name: "pages"
-    label: "Pages"
+          - {label: Content, name: body, widget: markdown}
+  - label: "Pages"
+    name: "pages"
+    extension: "md"
     folder: "site/content/"
     create: true
     fields:
@@ -29,8 +36,9 @@ collections: # A list of collections the CMS should be able to edit
       - {label: Weight, name: weight, widget: number, required: false}
       - {label: Publish Date, name: date, widget: datetime}
       - {label: Content, name: body, widget: markdown}
-  - name: "qualifier"
-    label: "Qualifier"
+  - label: "Qualifier"
+    name: "qualifier"
+    extension: "md"
     folder: "site/content/qualifier"
     create: true
     fields:
@@ -40,8 +48,9 @@ collections: # A list of collections the CMS should be able to edit
       - {label: Publish Date, name: date, widget: datetime}
       - {label: Image, name: image, widget: image, required: false}
       - {label: Content, name: body, widget: markdown}
-  - name: "mean"
-    label: "MEAN Stack"
+  - label: "MEAN Stack"
+    name: "mean"
+    extension: "md"
     folder: "site/content/mean"
     create: true
     fields:
@@ -51,8 +60,9 @@ collections: # A list of collections the CMS should be able to edit
       - {label: Publish Date, name: date, widget: datetime}
       - {label: Image, name: image, widget: image, required: false}
       - {label: Content, name: body, widget: markdown}
-  - name: "ionic"
-    label: "Ionic"
+  - label: "Ionic"
+    name: "ionic"
+    extension: "md"
     folder: "site/content/ionic"
     create: true
     fields:
@@ -64,6 +74,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: Content, name: body, widget: markdown}
   - name: "group"
     label: "Group"
+    extension: "md"
     folder: "site/content/group"
     create: true
     fields:
