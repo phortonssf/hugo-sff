@@ -11,14 +11,5 @@
 	<atom:link href="https://affectionate-sinoussi-9885f0.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>About</title>
-      <link>https://affectionate-sinoussi-9885f0.netlify.com/about/</link>
-      <pubDate>Sat, 28 Apr 2018 22:41:04 -0700</pubDate>
-      
-      <guid>https://affectionate-sinoussi-9885f0.netlify.com/about/</guid>
-      <description>Lorem Ipsum.</description>
-    </item>
-    
   </channel>
 </rss>

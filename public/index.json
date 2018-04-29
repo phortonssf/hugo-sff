@@ -63,6 +63,13 @@
 	"content": "Lorem Ipsum.\n"
 },
 {
+	"uri": "https://affectionate-sinoussi-9885f0.netlify.com/about/",
+	"title": "About",
+	"tags": [],
+	"description": "",
+	"content": "Lorem Ipsum.\n"
+},
+{
 	"uri": "https://affectionate-sinoussi-9885f0.netlify.com/lesson-2/fourth-content/",
 	"title": "Step 4",
 	"tags": [],
@@ -77,8 +84,8 @@
 	"content": "Lorem Ipsum.\n"
 },
 {
-	"uri": "https://affectionate-sinoussi-9885f0.netlify.com/about/",
-	"title": "About",
+	"uri": "https://affectionate-sinoussi-9885f0.netlify.com/contact/",
+	"title": "Contact",
 	"tags": [],
 	"description": "",
 	"content": "Lorem Ipsum.\n"

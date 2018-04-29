@@ -12,12 +12,33 @@ media_folder: "data/images/gallery"
 collections: # A list of collections the CMS should be able to edit
    - name: "lesson"
      label: "Lesson"
-     folder: "site/content/lesson"
+     folder: "site/content/"
      create: true
      fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "lesson"}
-      - {label: "Group" , name: "group" , widget: "string"}
-      - {label: "Name" , name: "name" , widget: "string"}
+      - {label: "Title" , name: "title" , widget: "string"}
+      - {label: "Chapter" , name: "chapter" , widget: "boolean"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-#      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+  - file: "site/content/about/_index.md"
+    label: "About Page"
+    name: "about"
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Body, name: body, widget: markdown}
+  - file: "site/content/contact/_index.md"
+    label: "Contact Page"
+    name: "contact"
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Body, name: body, widget: markdown}
+      - label: Contact Entries
+        name: contact_entries
+        widget: list
+        fields:
+          - label: Heading
+            name: heading
+            widget: string
+          - label: Text
+            name: text
+            widget: text
