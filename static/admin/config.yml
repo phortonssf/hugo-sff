@@ -62,5 +62,14 @@ collections: # A list of collections the CMS should be able to edit
       - {label: Title, name: title, widget: string}
       - {label: Weight, name: weight, widget: string, required: false}
       - {label: Publish Date, name: date, widget: datetime}
-      - {label: Image, name: image, widget: image, required: false}
       - {label: Body, name: body, widget: markdown}
+  - name: "home"
+    label: "Home"
+    files:
+      - file: "site/content/_index.md"
+        label: "Home Page"
+        name: "home"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Publish Date, name: date, widget: datetime}
+          - {label: Body, name: body, widget: markdown}
