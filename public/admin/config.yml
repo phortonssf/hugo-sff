@@ -10,6 +10,25 @@ media_folder: "/site/static/images/uploads" # Media files will be stored in the 
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
 collections: # A list of collections the CMS should be able to edit
+  - name: "home"
+    label: "Home"
+    files:
+      - file: "site/content/_index.md"
+        label: "Home Page"
+        name: "home"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Publish Date, name: date, widget: datetime}
+          - {label: Body, name: body, widget: markdown}
+  - name: "pages"
+    label: "Pages"
+    folder: "site/content/"
+    create: true
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Weight, name: weight, widget: number, required: false}
+      - {label: Publish Date, name: date, widget: datetime}
+      - {label: Content, name: body, widget: markdown}
   - name: "qualifier"
     label: "Qualifier"
     folder: "site/content/qualifier"
@@ -17,21 +36,21 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: Title, name: title, widget: string}
       - {label: Chapter, name: chapter, widget: boolean, required: false}
-      - {label: Weight, name: weight, widget: string, required: false}
+      - {label: Weight, name: weight, widget: number, required: false}
       - {label: Publish Date, name: date, widget: datetime}
       - {label: Image, name: image, widget: image, required: false}
-      - {label: Body, name: body, widget: markdown}
+      - {label: Content, name: body, widget: markdown}
   - name: "mean"
-    label: "Mean Stack"
+    label: "MEAN Stack"
     folder: "site/content/mean"
     create: true
     fields:
       - {label: Title, name: title, widget: string}
       - {label: Chapter, name: chapter, widget: boolean, required: false}
-      - {label: Weight, name: weight, widget: string, required: false}
+      - {label: Weight, name: weight, widget: number, required: false}
       - {label: Publish Date, name: date, widget: datetime}
       - {label: Image, name: image, widget: image, required: false}
-      - {label: Body, name: body, widget: markdown}
+      - {label: Content, name: body, widget: markdown}
   - name: "ionic"
     label: "Ionic"
     folder: "site/content/ionic"
@@ -39,28 +58,18 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: Title, name: title, widget: string}
       - {label: Chapter, name: chapter, widget: boolean, required: false}
-      - {label: Weight, name: weight, widget: string, required: false}
+      - {label: Weight, name: weight, widget: number, required: false}
       - {label: Publish Date, name: date, widget: datetime}
       - {label: Image, name: image, widget: image, required: false}
-      - {label: Body, name: body, widget: markdown}
+      - {label: Content, name: body, widget: markdown}
   - name: "group"
-    label: "Group Project"
+    label: "Group"
     folder: "site/content/group"
     create: true
     fields:
       - {label: Title, name: title, widget: string}
       - {label: Chapter, name: chapter, widget: boolean, required: false}
-      - {label: Weight, name: weight, widget: string, required: false}
+      - {label: Weight, name: weight, widget: number, required: false}
       - {label: Publish Date, name: date, widget: datetime}
       - {label: Image, name: image, widget: image, required: false}
-      - {label: Body, name: body, widget: markdown}
-  - name: "pages"
-    label: "Pages"
-    folder: "site/content/"
-    create: true
-    fields:
-      - {label: Title, name: title, widget: string}
-      - {label: Weight, name: weight, widget: string, required: false}
-      - {label: Publish Date, name: date, widget: datetime}
-      - {label: Image, name: image, widget: image, required: false}
-      - {label: Body, name: body, widget: markdown}
+      - {label: Content, name: body, widget: markdown}
