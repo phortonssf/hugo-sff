@@ -35,6 +35,10 @@ defaultContentLanguageInSubdir= true
     name = "Contact Us"
     url = "contact"
     weight = 26
+[[menu.shortcuts]]
+    name = "<i class='fa fa-camera'></i> Testing"
+    url = "/testing"
+    weight = 27   
 
 
 [params]
