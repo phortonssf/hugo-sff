@@ -1,0 +1,22 @@
+backend:
+  name: git-gateway
+  accept_roles: #optional - accepts all users if left out
+    - admin
+    - editor
+  branch: master # Branch to update (optional; defaults to master)
+
+publish_mode: editorial_workflow
+media_folder: "data/images/gallery"
+
+
+# collections: # A list of collections the CMS should be able to edit
+#   - name: food
+#     label: "Food Item"
+#     folder: "site/content/food"
+#     create: true
+#     fields:
+#       - {label: "Name of Item" , name: "Title" , widget: "string"}
+#       - {label: "Supported Meals", name: "Categories", widget: "list", default: ["Lunch", "Dinner"]}
+#       - {label: "Ingredients" , name: "Description" , widget: "text"}
+#       - {label: "Type of Food" , name: "Type" , widget: "string", default: "raw bar"}
+#       - {label: "Price", name: "price", widget: "string"}
