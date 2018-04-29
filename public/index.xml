@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SSF Lessons</title>
+    <title>Home on SSF Lessons</title>
     <link>https://affectionate-sinoussi-9885f0.netlify.com/</link>
-    <description>Recent content on SSF Lessons</description>
+    <description>Recent content in Home on SSF Lessons</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 28 Apr 2018 22:35:57 -0700</lastBuildDate>
     
 	<atom:link href="https://affectionate-sinoussi-9885f0.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     

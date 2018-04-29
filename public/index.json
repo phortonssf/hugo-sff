@@ -1,5 +1,12 @@
 [
 {
+	"uri": "https://affectionate-sinoussi-9885f0.netlify.com/",
+	"title": "Home",
+	"tags": [],
+	"description": "",
+	"content": "Lorem Ipsum.\n"
+},
+{
 	"uri": "https://affectionate-sinoussi-9885f0.netlify.com/lesson/first-content/",
 	"title": "Step 1",
 	"tags": [],
@@ -33,13 +40,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Lorem Ipsum.\n"
-},
-{
-	"uri": "https://affectionate-sinoussi-9885f0.netlify.com/",
-	"title": "",
-	"tags": [],
-	"description": "",
-	"content": ""
 },
 {
 	"uri": "https://affectionate-sinoussi-9885f0.netlify.com/categories/",
