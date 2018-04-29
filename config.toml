@@ -1,8 +1,46 @@
-baseURL = "http://example.org/"
+baseURL = "https://affectionate-sinoussi-9885f0.netlify.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+defaultContentLanguage = "en"
+
+title = "SSF Lessons"
 theme = "hugo-theme-learn-master"
-[[menu.main]]
-    name = "About"
-    url  = "/about"
-    weight = 1
+themesdir = "./themes/"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
+
+[outputs]
+    home = [ "HTML", "RSS", "JSON"]
+
+[[menu.shortcuts]]
+    name = "<i class='fa fa-github'></i> Github repo"
+    identifier = "ds"
+    url = "https://github.com/matcornic/hugo-theme-learn"
+    weight = 10
+
+[[menu.shortcuts]]
+    name = "<i class='fa fa-camera'></i> Learn More"
+    url = "/about"
+    weight = 11
+
+[params]
+    # Author of the site, will be used in meta information
+    author = "Soft Stack Factory"
+    # Description of the site, will be used in meta information
+    description = "Lessons for students of Soft Stack Factory"
+    # Shows a checkmark for visited pages on the menu
+    showVisitedLinks = true
+    # Disable search function. It will hide search bar
+    disableSearch = false
+    # Javascript and CSS cache are automatically busted when new version of site is generated.
+    # Set this to true to disable this behavior (some proxies don't handle well this optimization)
+    disableAssetsBusting = false
+    # Set this to true to disable copy-to-clipboard button for inline code.
+    disableInlineCopyToClipBoard = false
+    # A title for shortcuts in menu is set by default. Set this to true to disable it.
+    disableShortcutsTitle = false
+    # When using mulitlingual website, disable the switch language button.
+    disableLanguageSwitchingButton = false
+    # Order sections in menu by "weight" or "title". Default to "weight"
+    ordersectionsby = "weight"
+    # Change default color scheme with a variant one. Can be "red", "blue", "green".
+    themeVariant = "green"

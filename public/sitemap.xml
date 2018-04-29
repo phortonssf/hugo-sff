@@ -3,17 +3,72 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://affectionate-sinoussi-9885f0.netlify.com/</loc>
+    <lastmod>2018-04-28T22:35:57-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://affectionate-sinoussi-9885f0.netlify.com/lesson-2/first-content/</loc>
+    <lastmod>2018-04-28T22:31:08-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://affectionate-sinoussi-9885f0.netlify.com/lesson/first-content/</loc>
+    <lastmod>2018-04-28T22:30:58-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://affectionate-sinoussi-9885f0.netlify.com/lesson/</loc>
+    <lastmod>2018-04-28T22:21:24-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://affectionate-sinoussi-9885f0.netlify.com/lesson-2/</loc>
+    <lastmod>2018-04-28T22:21:24-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://affectionate-sinoussi-9885f0.netlify.com/lesson-2/second-content/</loc>
+    <lastmod>2018-04-28T22:22:08-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://affectionate-sinoussi-9885f0.netlify.com/lesson/second-content/</loc>
+    <lastmod>2018-04-28T22:22:08-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://affectionate-sinoussi-9885f0.netlify.com/lesson-2/third-content/</loc>
+    <lastmod>2018-04-28T22:26:46-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://affectionate-sinoussi-9885f0.netlify.com/lesson/third-content/</loc>
+    <lastmod>2018-04-28T22:26:46-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://affectionate-sinoussi-9885f0.netlify.com/lesson-2/fourth-content/</loc>
+    <lastmod>2018-04-28T22:27:47-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://affectionate-sinoussi-9885f0.netlify.com/lesson/fourth-content/</loc>
+    <lastmod>2018-04-28T22:27:47-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://affectionate-sinoussi-9885f0.netlify.com/about/</loc>
+    <lastmod>2018-04-28T22:41:04-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://affectionate-sinoussi-9885f0.netlify.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://affectionate-sinoussi-9885f0.netlify.com/tags/</loc>
     <priority>0</priority>
   </url>
   

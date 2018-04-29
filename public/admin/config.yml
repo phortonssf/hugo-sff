@@ -1,0 +1,23 @@
+backend:
+  name: git-gateway
+  accept_roles: #optional - accepts all users if left out
+    - admin
+    - editor
+  branch: master # Branch to update (optional; defaults to master)
+
+publish_mode: editorial_workflow
+media_folder: "data/images/gallery"
+
+
+collections: # A list of collections the CMS should be able to edit
+   - name: "lesson"
+     label: "Lesson"
+     folder: "site/content/lesson"
+     create: true
+     fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "lesson"}
+      - {label: "Group" , name: "group" , widget: "string"}
+      - {label: "Name" , name: "name" , widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+#      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
