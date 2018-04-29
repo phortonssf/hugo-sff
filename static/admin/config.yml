@@ -20,7 +20,7 @@ collections: # A list of collections the CMS should be able to edit
     files:
       - label: "Home Page"
         name: "home"
-        file: "site/content/_index.md"
+        file: "content/_index.md"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Weight, name: weight, widget: number, required: false}
@@ -29,7 +29,7 @@ collections: # A list of collections the CMS should be able to edit
   - label: "Pages"
     name: "pages"
     extension: "md"
-    folder: "site/content/"
+    folder: "content/"
     create: true
     fields:
       - {label: Title, name: title, widget: string}
@@ -39,7 +39,7 @@ collections: # A list of collections the CMS should be able to edit
   - label: "Qualifier"
     name: "qualifier"
     extension: "md"
-    folder: "site/content/qualifier"
+    folder: "content/qualifier"
     create: true
     fields:
       - {label: Title, name: title, widget: string}
@@ -51,7 +51,7 @@ collections: # A list of collections the CMS should be able to edit
   - label: "MEAN Stack"
     name: "mean"
     extension: "md"
-    folder: "site/content/mean"
+    folder: "content/mean"
     create: true
     fields:
       - {label: Title, name: title, widget: string}
@@ -63,7 +63,7 @@ collections: # A list of collections the CMS should be able to edit
   - label: "Ionic"
     name: "ionic"
     extension: "md"
-    folder: "site/content/ionic"
+    folder: "content/ionic"
     create: true
     fields:
       - {label: Title, name: title, widget: string}
@@ -75,7 +75,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "group"
     label: "Group"
     extension: "md"
-    folder: "site/content/group"
+    folder: "content/group"
     create: true
     fields:
       - {label: Title, name: title, widget: string}
