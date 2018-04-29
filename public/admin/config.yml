@@ -6,61 +6,44 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
-media_folder: "data/images/gallery"
-
+media_folder: "/site/static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
 collections: # A list of collections the CMS should be able to edit
-   - name: "lesson"
-     label: "Lesson"
-     folder: "site/content/"
-     create: true
-     fields:
-      - {label: "Title" , name: "title" , widget: "string"}
-      - {label: "Chapter" , name: "chapter" , widget: "boolean"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "lesson"
+    label: "Lesson"
+    folder: "site/content/"
+    create: true
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Chapter, name: chapter, widget: boolean, required: false}
+      - {label: Publish Date, name: date, widget: datetime}
+      - {label: Image, name: image, widget: image, required: false}
+      - {label: Body, name: body, widget: markdown}
   - name: "pages"
-      label: "Pages"
-      files:
-      - file: "site/content/_index.md"
-        label: "Home Page"
-        name: "home"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: "Blurb", name: blurb, widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Intro", name: intro, widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Products", name: products, widget: list, fields: [
-              {label: "Image", name: "image", widget: "image"},
-              {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Values", name: "values", widget: "object", fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
-      - file: "site/content/about/_index.md"
-        label: "About Page"
-        name: "about"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Body, name: body, widget: markdown}
-      - file: "site/content/contact/_index.md"
-        label: "Contact Page"
-        name: "contact"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Body, name: body, widget: markdown}
-          - label: Contact Entries
-            name: contact_entries
-            widget: list
-            fields:
-              - label: Heading
-                name: heading
-                widget: string
-              - label: Text
-                name: text
-                widget: text
+    label: "Pages"
+    files:
+    - file: "site/content/_index.md"
+      label: "Home Page"
+      name: "home"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Weight, name: weight, widget: string, required: false}
+        - {label: Image, name: image, widget: image, required: false}
+        - {label: Body, name: body, widget: markdown}
+    - file: "site/content/about/_index.md"
+      label: "About Page"
+      name: "about"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Weight, name: weight, widget: string, required: false}
+        - {label: Image, name: image, widget: image, required: false}
+        - {label: Body, name: body, widget: markdown}
+    - file: "site/content/contact/_index.md"
+      label: "Contact Page"
+      name: "contact"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Weight, name: weight, widget: string, required: false}
+        - {label: Image, name: image, widget: image, required: false}
+        - {label: Body, name: body, widget: markdown}
