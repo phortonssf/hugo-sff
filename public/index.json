@@ -1,19 +1,5 @@
 [
 {
-	"uri": "https://affectionate-sinoussi-9885f0.netlify.com/",
-	"title": "Home",
-	"tags": [],
-	"description": "",
-	"content": "Lorem Ipsum.\n"
-},
-{
-	"uri": "https://affectionate-sinoussi-9885f0.netlify.com/lesson-2/first-content/",
-	"title": "Step 1",
-	"tags": [],
-	"description": "",
-	"content": "Lorem Ipsum.\n"
-},
-{
 	"uri": "https://affectionate-sinoussi-9885f0.netlify.com/lesson/first-content/",
 	"title": "Step 1",
 	"tags": [],
@@ -22,35 +8,14 @@
 },
 {
 	"uri": "https://affectionate-sinoussi-9885f0.netlify.com/lesson/",
-	"title": "Lesson",
+	"title": "Example Lesson",
 	"tags": [],
 	"description": "",
 	"content": " Chapter X Some Chapter title Lorem Ipsum.\n"
-},
-{
-	"uri": "https://affectionate-sinoussi-9885f0.netlify.com/lesson-2/",
-	"title": "Lesson 2",
-	"tags": [],
-	"description": "",
-	"content": " Chapter X Some Chapter title Lorem Ipsum.\n"
-},
-{
-	"uri": "https://affectionate-sinoussi-9885f0.netlify.com/lesson-2/second-content/",
-	"title": "Step 2",
-	"tags": [],
-	"description": "",
-	"content": "Lorem Ipsum.\n"
 },
 {
 	"uri": "https://affectionate-sinoussi-9885f0.netlify.com/lesson/second-content/",
 	"title": "Step 2",
-	"tags": [],
-	"description": "",
-	"content": "Lorem Ipsum.\n"
-},
-{
-	"uri": "https://affectionate-sinoussi-9885f0.netlify.com/lesson-2/third-content/",
-	"title": "Step 3",
 	"tags": [],
 	"description": "",
 	"content": "Lorem Ipsum.\n"
@@ -63,20 +28,6 @@
 	"content": "Lorem Ipsum.\n"
 },
 {
-	"uri": "https://affectionate-sinoussi-9885f0.netlify.com/about/",
-	"title": "About",
-	"tags": [],
-	"description": "",
-	"content": "Lorem Ipsum.\n"
-},
-{
-	"uri": "https://affectionate-sinoussi-9885f0.netlify.com/lesson-2/fourth-content/",
-	"title": "Step 4",
-	"tags": [],
-	"description": "",
-	"content": "Lorem Ipsum.\n"
-},
-{
 	"uri": "https://affectionate-sinoussi-9885f0.netlify.com/lesson/fourth-content/",
 	"title": "Step 4",
 	"tags": [],
@@ -84,11 +35,11 @@
 	"content": "Lorem Ipsum.\n"
 },
 {
-	"uri": "https://affectionate-sinoussi-9885f0.netlify.com/contact/",
-	"title": "Contact",
+	"uri": "https://affectionate-sinoussi-9885f0.netlify.com/",
+	"title": "",
 	"tags": [],
 	"description": "",
-	"content": "Lorem Ipsum.\n"
+	"content": ""
 },
 {
 	"uri": "https://affectionate-sinoussi-9885f0.netlify.com/categories/",
