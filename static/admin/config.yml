@@ -72,6 +72,9 @@ collections: # A list of collections the CMS should be able to edit
       - {label: Publish Date, name: date, widget: datetime}
       - {label: Image, name: image, widget: image, required: false}
       - {label: Content, name: body, widget: markdown}
+
+
+
   - name: "angular"
     label: "Angular Lessons"
     extension: "md"
@@ -95,4 +98,10 @@ collections: # A list of collections the CMS should be able to edit
       - {label: Publish Date, name: date, widget: datetime}
       - {label: Image, name: image, widget: image, required: false}
       - {label: Content, name: body, widget: markdown}
+
+
+
+
+
+
 
