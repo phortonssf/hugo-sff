@@ -72,3 +72,27 @@ collections: # A list of collections the CMS should be able to edit
       - {label: Publish Date, name: date, widget: datetime}
       - {label: Image, name: image, widget: image, required: false}
       - {label: Content, name: body, widget: markdown}
+  - name: "angular"
+    label: "Angular Lessons"
+    extension: "md"
+    folder: "content/angular"
+    create: true
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Weight, name: weight, widget: number, required: false}
+      - {label: Publish Date, name: date, widget: datetime}
+      - {label: Image, name: image, widget: image, required: false}
+      - {label: Content, name: body, widget: markdown}
+  - name: "hugo"
+    label: "Hugo"
+    extension: "md"
+    folder: "content/hugo"
+    create: true
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Chapter, name: chapter, widget: boolean, required: false}
+      - {label: Weight, name: weight, widget: number, required: false}
+      - {label: Publish Date, name: date, widget: datetime}
+      - {label: Image, name: image, widget: image, required: false}
+      - {label: Content, name: body, widget: markdown}
+

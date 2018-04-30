@@ -1,6 +1,6 @@
 ---
 title: Javscript
-weight: 5
+weight: 15
 chapter: true
 ---
 

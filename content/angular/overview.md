@@ -1,6 +1,6 @@
 ---
 title: Angular Overview
-weight: 1
+weight: 10
 ---
 
 What is Lorem Ipsum?
